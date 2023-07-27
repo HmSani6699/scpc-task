@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Scpc task</h1>
     <script>
-       function taskOne(text){
-    return text.split("").reverse().join('')
-}
-console.log(taskOne('Alhamdolillha')); 
+        function taskOne(arr) {
+            let result = 0
+            for(num in arr){
+                if(arr[num]>0){
+                    result+=arr[num]
+                }
+            }
+            return result
+        }
+        console.log(taskOne([2, -5, 10, -3, 7])); 
     </script>
 </body>
+
 </html>
