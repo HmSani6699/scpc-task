@@ -95,7 +95,3 @@ function taskFive(num1, num2,operator) {
 //  const result = taskFive(4, 4,'*');
 //  console.log(result); 
 
-
-/*/========================//
-         Task Five
-//=========================/*/
