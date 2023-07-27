@@ -76,5 +76,26 @@ function twoSumSortedArray(nums, target) {
 
 const sortedArray = [1, 3, 6, 8, 11, 15];
 const targetValue = 9;
-const result = twoSumSortedArray(sortedArray, targetValue);
-console.log(result); 
+// const result = twoSumSortedArray(sortedArray, targetValue);
+// console.log(result); 
+
+
+/*/========================//
+         Task Five
+//=========================/*/
+
+function taskFive(num1, num2,operator) {
+    if(operator==='+')return num1 +num2;
+    if(operator==='-')return num1 -num2;
+    if(operator==='*')return num1 *num2;
+    if(operator==='/')return num1 /num2;
+    else return 'Error : Invalid operator'
+ }
+
+//  const result = taskFive(4, 4,'*');
+//  console.log(result); 
+
+
+/*/========================//
+         Task Five
+//=========================/*/
